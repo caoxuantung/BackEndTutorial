@@ -2,14 +2,39 @@
     <head>
         <title>Trang đầu Backend </title>
     </head>
+    
+    
     <body>
-        <p onclick="Tunc()">Àn nhong, àn nhong, àn nhong</p>
-        <div>Caveman brain go unga bunga</div>
+        <form>
+            <form>
+                <label for="number1"> Enter the 1st number: </label>
+                <input type="number1" id="quantity1" name="quantity" min="1" max="999">
+            </form>
+            <form>
+                <label for="number2"> Enter the 2nd number: </label>
+                <input type="number2" id="quantity2" name="quantity" min="1" max="999">
+            </form>
+            <p>Choose your formula:</p>
+                <form>
+                    <input type="radio" id="plus" name="formula" value="plus">
+                    <label for="plus">Plus</label><br>
+                    <input type="radio" id="minus" name="formula" value="minus">
+                    <label for="minus">Minus</label><br>
+                    <input type="radio" id="multiply" name="formula" value="multiply">
+                    <label for="multiply">Multiply</label><br>
+                    <input type="radio" id="divide" name="formula" value="divide">
+                    <label for="divide">Divide</label>
+                </form>
+            
+        </form>
+        
+        <button type="button" onclick='document.getElementById("submit").innerHTML = z'>Submit</button>
         <script>
-            function Tunc(){
-                alert("Iu Ling")
-            }
+            let x, y, z;
+            x="quantity1";
+            y="quantity2";
+            let z= x + y;
         </script>
-
+        
     </body>
 </html>
