@@ -1,106 +1,90 @@
-users = [
-    {
-        "user_id":"01",
-        "name":"Phạm Quang Linh",
-        "age":18,
-        "role":0,
-        "gender":1,
-        "fb":"fb.me/linhcuenini",
-        "status":1,
-        "course":{
-            "primary":true,
-            "secondary":true,
-            "high":true,
-        }
-    },
-    {
-        "user_id":"02",
-        "name":"Nguyễn Xuân Minh",
-        "age":21,
-        "role":1,
-        "gender":0,
-        "fb":"fb.me/xuanminhnguyen",
-        "status":1,
-        "course":{
-            "primary":true,
-            "secondary":true,
-            "high":false,
-        }
-    },
-    {
-        "user_id":"03",
-        "name":"Phạm Văn Trường",
-        "age":25,
-        "role":1,
-        "gender":1,
-        "fb":"fb.me/truongfpv001",
-        "status":0,
-        "course":{
-            "primary":false,
-            "secondary":false,
-            "high":true,
-        }
-    },
-    {
-        "user_id":"04",
-        "name":"Trần Đức Mạnh",
-        "age":26,
-        "role":1,
-        "gender":1,
-        "fb":"fb.me/manhnosts",
-        "status":1,
-        "course":{
-            "primary":false,
-            "secondary":true,
-            "high":true,
-        }
-    },
-    {
-        "user_id":"05",
-        "name":"Nguyễn Thị Linh Chi",
-        "age":18,
-        "role":0,
-        "gender":0,
-        "fb":"fb.me/linhchingox",
-        "status":1,
-        "course":{
-            "primary":true,
-            "secondary":true,
-            "high":true,
-        }
-    },
-    {
-        "user_id":"06",
-        "name":"Trần Cẩm Lan",
-        "age":18,
-        "role":0,
-        "gender":0,
-        "fb":"fb.me/camlamsux",
-        "status":1,
-        "course":{
-            "primary":true,
-            "secondary":true,
-            "high":true,
-        }
-    },
-    {
-        "user_id":"07",
-        "name":"Hoàng Văn Hùng",
+a = [
+        {
+            "name":"Cao Xuân Tùng",
+            "age":19,
+            "birthday":19/06/2002,
+            "height":170,
+            "weight":75,
+            "gender":1,
+        },
+
+        {
+            "name":"Lê Thu Nhật Linh",
+            "age":18,
+            "birthday":10/05/2002,
+            "height":165,
+            "weight":48,
+            "gender":0,
+        },
+
+        {
+            "name":"Tưởng Đức Thịnh",
+            "age":19,
+            "birthday":12/04/2002,
+            "height":175,
+            "weight":75,
+            "gender":1,
+        },
+
+        { 
+        "name":"Trần Hồng Ngọc",
         "age":19,
-        "role":1,
-        "gender":1,
-        "fb":"fb.me/linhcuenini",
-        "status":1,
-        "course":{
-            "primary":false,
-            "secondary":false,
-            "high":true,
-        }
-    },
+        "birthday":30/07/2002,
+        "height":170,
+        "weight":50,
+        "gender":0,
+        },
 
-];
+        {
+        "name":"NGuyễn Thị Thảo",
+        "age":18,
+        "birthday":11/08/2002,
+        "height":170,
+        "weight":48,
+        "gender":0,
+        },
 
-//user_id => mã người dùng
-//role => quyền  1: user ; 0 : admin
-//gender => giới tính 1: nam ; 0:nữ
-//course => khoá học
+        {
+            "name":"Phạm Quang Linh",
+            "age":18,
+            "birthday":07/01/2002,
+            "height":170,
+            "weight":70,
+            "gender":1,
+            },
+            
+        {
+            "name":"Phạm Tuấn Linh",
+            "age":18,
+           "birthday":28/07/2002,
+            "height":175,
+            "weight":65,
+            "gender":1,
+            },
+        
+        {
+            "name":"Lý Khánh Chi",
+            "age":18,
+            "birthday":18/06/2002,
+            "height":165,
+            "weight":48,
+            "gender":0,
+            },
+
+        {
+            "name":"Lại Hà Trang",
+            "age":18,
+            "birthday":11/09/2002,
+            "height":167,
+            "weight":48,
+            "gender":0,
+            },    
+        {
+            "name":"Cao Thu Hương",
+            "age":27,
+            "birthday":28/06/1994,
+            "height":165,
+            "weight":48,
+            "gender":0,
+            },
+]
